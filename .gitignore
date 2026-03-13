@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# wordlists can be huge -- don't commit them
+*.txt
+!requirements.txt
+
+# audit output
+*.json
+*.csv
+reports/
+
+# virtual envs
+.venv/
+venv/
+env/
+
+# packaging
+dist/
+build/
+*.egg-info/
+
+# editors
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
